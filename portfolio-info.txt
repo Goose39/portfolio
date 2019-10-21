@@ -1,0 +1,34 @@
+- Headline
+	Thinkful Software Engineering student and technology enthusiast. 
+
+- Bio
+	Growing up in South Africa I have always been interested in technology. From the first time I used a computer, at the age of 9, and attempted to connect to the internet (using 56k dial-up modem). I was intrigued by the noise it made but fascinated by all the possibilities that technology provided. 
+	Once I was exposed to my first programming language (Delphi 7) in High School I quickly realized the value of being able to write code and create my own applications. 
+	While working in the online gaming and sports betting industry, I was able to get a real understanding of how to integrate a variety of technologies in order to provide customers with online services. 
+	I am excited about the journey of moving from a user of technology, to implementing the development skills I have acquired over the years and becoming a creator of that technology. 
+	On days when I am not honing my development skills, you would find me giving my brain a break on the golf course where I am playing off a 2 handicap.  
+
+- Contact Info
+	Shaun Gouws, Palm Beach Gardens FL
+	Github Profile: https://github.com/Goose39
+	Linkedin Profile: https://www.linkedin.com/in/shaun-gouws-28b34a56/
+	email: goose39.dev@gmail.com
+	tel: 561-281-8988
+	*** Contact form?
+	
+
+-Projects
+	- Quiz App
+		Title
+			Rules of Golf Quiz App	
+		Description
+			Simple jQuery app to test the user's knowledge of the rules of golf. This project was completed in order to implement new jQuery concepts learnt in Thinkful Bootcamp as well as exploring various uses of Interactive Web apps. 
+	
+		Links
+			Github: https://github.com/Goose39/thinkful-quiz-app
+			Github Pages: https://goose39.github.io/thinkful-quiz-app/
+
+	
+
+
+
