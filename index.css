@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    text-align: center;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    margin-top: 0px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.page-head {
+    display: flex;
+    justify-content: flex-start;
+    background-color: grey;
+}
+
+.profile-pic {
+    height: 65px;
+    margin-top: 15px;
+    padding: 0px 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.headline {
+    text-align: left;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 15px;
+}
+
+.nav-items li {
+    padding: 0px 5px;
+}
+
+.navbar {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.bio {
+    margin-top: 25px;
+    padding: 0px 5px;
+}
+
+.screenshot {
+    width: 100px;
+}
+
+.portfolio {
+    margin: 0px auto;
+}
+
+.portfolio header {
+    background-color: lightgrey;
+}
+
+.port-item {
+    position: relative;
+    margin: 10px auto;
+}
+
+.tech-logos {
+    position: absolute;
+    left: 0px;
+    bottom: 5px;
+}
+
+.screenshot {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.name {
+    margin-left: 125px;
+    text-align: left;
+    width: 65%;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.desc {
+    margin-left: 125px;
+    width: 65%;
+    text-align: left; 
+}
+
+.tech-logo {
+    height: 25px;
+}
+
+.links {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .page-head {
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .navbar {
+        position: static;
+        justify-items: flex-end;
+        background-color: lightgrey;
+    }
+
+    .name {
+        margin-left: auto;
+    }
+
+    .tech-logos {
+        position: static;
+        text-align: left;
+        margin-left: auto;
+        width: 65%;
+    }
+
+    .screenshot {
+        width: 30%;
+        padding: 0 10px;
+        display: block;
+    }
+
+    .desc {
+        margin-left: auto;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;       
+    }
+
+    .links li {
+        padding: 0px 25px;
+        border: grey 2px solid;
+        background-color: lightgray;
+    }
+}
+
