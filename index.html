@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito&display=swap"">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mid-size-display.css">
+    <link rel="stylesheet" href="large-display.css">
+    <script src="https://kit.fontawesome.com/aec820073a.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <title>Shaun Gouws - Development Portfolio</title>
 </head>
 <body>
@@ -14,6 +18,7 @@
             <img class="profile-pic" alt="profile picture" src="images/profile-pic.jpg"/>
             <div class="headline">
                 <h1>Shaun Gouws</h1>
+                <p class="location">Palm Beach Gardens, FL, USA</p>
                 <p>Thinkful Software Engineering student and technology enthusiast.</p>
             </div>
         </div>
@@ -21,47 +26,101 @@
     <nav role="navigation">
         <div class="navbar">
             <ul class="nav-items">
-                <li class="nav-link"><a href="#">Portfolio</a></li>
-                <li class="nav-link"><a href="#">Contact</a></li>
+                <li class="nav-link"><a href="#portfolio-section">Portfolio</a></li>
+                <li class="nav-link"><a href="#contact-section">Contact</a></li>
             </ul>
         </div>
     </nav>
+
     <main role="main">
+
         <section class="bio">
-            <p>Growing up in South Africa I have always been interested in technology. From the first time I used a computer, at the age of 9, and attempted to connect to the internet (using 56k dial-up modem). I was intrigued by the noise it made but fascinated by all the possibilities that technology provided. <br>
-                <br>
-                Once I was exposed to my first programming language (Delphi 7) in High School I quickly realized the value of being able to write code and create my own applications. <br>
-                <br>
-                While working in the online gaming and sports betting industry, I was able to get a real understanding of how to integrate a variety of technologies in order to provide customers with online services. <br>
-                <br>
-                I am excited about the journey of moving from a user of technology, to implementing the development skills I have acquired over the years and becoming a creator of that technology. <br>
-                <br>
-                On days when I am not honing my development skills, you would find me giving my brain a break on the golf course where I am playing off a 2 handicap. 
-            </p>
-        </section>
-        <section class="portfolio">
             <header>
-                <h1>Portfolio</h1>
+                    <a><h1>About Me</h1></a>
             </header>
+                <p>Growing up in South Africa I have always been interested in technology. From the first time I used a computer, at the age of 9, and attempted to connect to the internet (using 56k dial-up modem). I was intrigued by the noise it made but fascinated by all the possibilities that technology provided. <br>
+                    <br>
+                    Once I was exposed to my first programming language (Delphi 7) in High School I quickly realized the value of being able to write code and create my own applications. <br>
+                    <br>
+                    While working in the online gaming and sports betting industry, I was able to get a real understanding of how to integrate a variety of technologies in order to provide customers with online services. <br>
+                    <br>
+                    I am excited about the journey of moving from a user of technology, to implementing the development skills I have acquired over the years and becoming a creator of that technology. <br>
+                    <br>
+                    On days when I am not honing my development skills, you would find me giving my brain a break on the golf course where I am playing off a 2 handicap. 
+                </p>
+        </section>
+
+        <section class="portfolio">
+
+            <header>
+                    <a name="portfolio-section"><h1>Portfolio</h1></a>
+            </header>
+
             <div class="port-item">
-                <img class="screenshot" src="images/quiz-app-screenshot.JPG" />
-                <div class="name">Rules of Golf Quiz App</div>
-                <div class="tech-logos">
-                    <img class="tech-logo" alt="html5 logo" src="images/jQuery-Logo.svg"/>
-                    <img class="tech-logo" alt="html5 logo" src="images/HTML5_Logo.png"/>
+                <div class="screenshot">
+                    <div class="thumbnails">
+                        <img class="thumbnail" alt="quiz app screenshot 1" src="images/quiz-app-screenshot.JPG"/>
+                        <img class="thumbnail" alt="quiz app screenshot 2" src="images/quiz-app-screenshot2.JPG"//>
+                        <img class="thumbnail" alt="quiz app screenshot 3" src="images/quiz-app-screenshot3.JPG"//>
+                        <img class="thumbnail" alt="quiz app screenshot 4" src="images/quiz-app-screenshot4.JPG"/>
+                        <img class="thumbnail" alt="quiz app screenshot 5" src="images/quiz-app-screenshot5.JPG"/>
+                    </div>
                 </div>
-                <div class="desc"><p>Simple jQuery app to test the user's knowledge of the rules of golf. This project was completed in order to implement new jQuery concepts learnt in Thinkful Bootcamp as well as exploring various uses of Interactive Web apps.</p></div>
+                <div class="name">
+                    <h3>Rules of Golf Quiz App</h3>
+                </div>
+                <div class="desc">
+                    <p>Simple jQuery app to test the user's knowledge of the rules of golf. This project was completed in order to implement new jQuery concepts learnt in Thinkful Bootcamp as well as exploring various uses of Interactive Web apps.</p>
+                </div>
+                <div class="tech-logos">
+                    <img class="tech-logo" alt="jQuery logo" src="images/pngfind.com-jquery-logo-png-6014403.png"/>
+                    <img class="tech-logo" alt="html5 logo" src="images/CSS3_and_HTML5_logos.png"/>
+                    <img class="tech-logo" alt="javascript logo" src="images/javascript-logo-8892AEFCAC-seeklogo.com.png"/>
+                </div>
                 <div>
                     <ul class="links">
-                        <li><a href="">Github Repository</a></li>
-                        <li><a href="">Github Pages - Demo</a></li>
+                        <li><a href="https://github.com/Goose39/thinkful-quiz-app">Github Repo</a></li>
+                        <li><a href="https://goose39.github.io/thinkful-quiz-app/">Live Demo</a></li>
                     </ul>
                 </div>
             </div>
-        </section> 
-    </main>
-    <footer>
 
+        </section> 
+
+   </main>
+
+    <setion class="contact">
+
+        <header>
+            <a name="contact-section"><h1>Contact Details</h1></a>
+        </header>
+
+        <div class="social">
+            <ul class="social-list">
+                <li class="social-item">
+                    <i class="fab fa-linkedin fa-3x"></i>
+                </li>     
+                <li class="social-item">
+                    <i class="fab fa-github fa-3x"></i>
+                </li>
+                <li class="social-item">
+                    <i class="fas fa-envelope fa-3x"></i>
+                </li>
+            </ul>    
+        </div>
+
+        <form class="contact-form">
+            <fieldset>
+                <textarea rows="10" cols="40">Send me an email, I would be happy to hear from you!</textarea>
+                <input type="button" value="Submit" />
+            </fieldset>
+        </form>
+
+    </setion>
+
+    <footer>
+        <p><br> </p>
     </footer>
+    <script src="index.js" type="text/javascript"></script>
 </body>
 </html>

@@ -1,0 +1,36 @@
+
+@media screen and (min-width: 750px) {
+    .port-item {
+        min-height: 300px;
+        padding: 15px;
+    }
+
+    .screenshot {
+        height: 100%;
+        width: 55%;
+    }
+
+    .name, .desc, .tech-logos {
+        width: 40%;
+    }
+
+    .thumbnails {
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+        right: 10px;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(106, 107, 109, 0.3);
+    }
+
+    .thumbnail {
+        margin: 5px 5px;
+    }
+
+    .thumbnail:hover {
+        border-width: 3px;
+    }
+
+}

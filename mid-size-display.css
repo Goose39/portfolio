@@ -1,0 +1,87 @@
+@media screen and (min-width: 600px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .page-head {
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .navbar {
+        position: static;
+        justify-items: flex-end;
+        font-size: 22px;
+    }
+
+    .nav-items li, .links li {
+        padding: 5px 15px;
+        border: grey 2px solid;
+        box-shadow: 2px 4px white;
+    }
+
+    .location {
+        display: block;
+        font-style: italic;
+    }
+
+    .name, .desc, .tech-logos {
+        margin-left: auto;
+        width: 55%;
+        text-align: left;
+    }
+
+    .tech-logos {
+        position: static;
+    }
+
+    .tech-logo {
+        height: 30px;
+    }
+
+    .screenshot {
+        min-height: 220px;
+        width: 40%;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;       
+    }
+
+    .contact-form {
+        display: inline-block;
+    }
+    
+    .profile-pic {
+        height: 120px;
+        margin: 15px;
+        border-radius: 10%;
+        display: inline-block;
+        padding: 0 0;
+    }
+
+    .port-item {
+        min-height: 220px;
+    }
+
+    .social-list {
+        display: flex;
+        flex-direction: column;        
+    }
+
+    .social-list li {
+        padding: 5px 25px;
+    }
+
+    .social {
+        display: inline-block;
+        margin-left: auto;
+
+
+    }
+
+
+}
