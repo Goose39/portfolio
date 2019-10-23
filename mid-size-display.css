@@ -79,10 +79,19 @@
 
     .social {
         display: inline-block;
-        margin-left: auto;
-
-
     }
 
+    fieldset {
+        display: flex;
+    }
+
+    .submit {
+        margin: 10px 0 0 auto;
+    }
+
+    .contact-methods {
+        display: flex;
+        justify-content: center;
+    }
 
 }

@@ -13,6 +13,7 @@
     <title>Shaun Gouws - Development Portfolio</title>
 </head>
 <body>
+
     <header>
         <div class="page-head">
             <img class="profile-pic" alt="profile picture" src="images/profile-pic.jpg"/>
@@ -23,11 +24,12 @@
             </div>
         </div>
     </header>
+
     <nav role="navigation">
         <div class="navbar">
             <ul class="nav-items">
-                <li class="nav-link"><a href="#portfolio-section">Portfolio</a></li>
-                <li class="nav-link"><a href="#contact-section">Contact</a></li>
+                <li class="nav-link" id="portfolio"><a href="#portfolio-section">Portfolio</a></li>
+                <li class="nav-link" id="contact"><a href="#contact-section">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -89,35 +91,36 @@
 
    </main>
 
-    <setion class="contact">
+   <section class="contact">
 
         <header>
-            <a name="contact-section"><h1>Contact Details</h1></a>
+            <a name="contact-section"><h1>Contact Me</h1></a>
         </header>
+        <div class="contact-methods">
+            <div class="social">
+                <ul class="social-list">
+                    <li class="social-item linkedin-icon">
+                        <a href="https://www.linkedin.com/in/shaun-gouws-28b34a56/"><i class="fab fa-linkedin fa-3x"></i></a>
+                    </li>     
+                    <li class="social-item github-icon">
+                        <a href="https://github.com/Goose39"><i class="fab fa-github fa-3x"></i></a>
+                    </li>
+                    <li class="social-item mail-icon">
+                        <a><i class="fas fa-envelope fa-3x"></i></a>
+                    </li>
+                </ul>    
+            </div>
 
-        <div class="social">
-            <ul class="social-list">
-                <li class="social-item">
-                    <i class="fab fa-linkedin fa-3x"></i>
-                </li>     
-                <li class="social-item">
-                    <i class="fab fa-github fa-3x"></i>
-                </li>
-                <li class="social-item">
-                    <i class="fas fa-envelope fa-3x"></i>
-                </li>
-            </ul>    
-        </div>
+            <form class="contact-form">
+                <fieldset>
+                    <textarea class="msg-text" rows="10" cols="60">Send me an email, I would be happy to hear from you!</textarea>
+                    <input class="submit" type="button" value="Submit" />
+                </fieldset>
+            </form>
+        </div>  
 
-        <form class="contact-form">
-            <fieldset>
-                <textarea rows="10" cols="40">Send me an email, I would be happy to hear from you!</textarea>
-                <input type="button" value="Submit" />
-            </fieldset>
-        </form>
-
-    </setion>
-
+    </section>
+    
     <footer>
         <p><br> </p>
     </footer>
