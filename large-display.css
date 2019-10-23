@@ -6,12 +6,12 @@
     }
 
     .screenshot {
-        height: 100%;
-        width: 55%;
+        height: 95%;
+        width: 45%;
     }
 
     .name, .desc, .tech-logos {
-        width: 40%;
+        width: 50%;
     }
 
     .thumbnails {
