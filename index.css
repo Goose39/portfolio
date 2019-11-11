@@ -68,6 +68,7 @@ footer {
 
 .thumbnail {
     width: 50px;
+    height: 50px;
     padding: 5px;
     border: 2px solid grey;
 }
