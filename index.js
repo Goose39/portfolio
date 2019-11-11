@@ -3,6 +3,14 @@ function handleJs() {
     mailClick();
     textClick();
     formSubmit();
+    initializeScreenshot();
+}
+
+function initializeScreenshot() {
+    $(".screenshot").each( function() {
+        const closestUrl = $(this).find("img").attr("src");
+        $(this).css("background-image", `url(${closestUrl}`);
+    })
 }
 
 function textClick() {
@@ -17,8 +25,7 @@ function textClick() {
 function handleThumbnailClicks() {
     $(".screenshot").on("click", ".thumbnail", function(event) {
         const src = $(this).attr("src");
-        console.log(`${src}`);
-        $(".screenshot").css("background-image", `url(${src})`);
+        $(this).closest(".screenshot").css("background-image", `url(${src})`);
     })
 }; 
  
