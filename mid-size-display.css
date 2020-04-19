@@ -1,5 +1,9 @@
 @media screen and (min-width: 600px) {
 
+    a {
+        font-size: 14px;
+    }
+
     h1 {
         font-size: 30px;
     }
@@ -17,13 +21,12 @@
 
     .nav-items li, .links li {
         padding: 5px 15px;
-        border: grey 2px solid;
-        box-shadow: 2px 4px white;
+        border: white 2px solid;
+        box-shadow: 2px 4px rgb(58, 180, 189);
     }
 
     .location {
         display: block;
-        font-style: italic;
     }
 
     .name, .desc, .tech-logos {
