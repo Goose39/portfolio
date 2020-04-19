@@ -7,7 +7,7 @@ body {
     text-align: center;
     max-width: 980px;
     margin: 0 auto;
-    background: url('/images/bg.jpg') no-repeat center center fixed;
+    background: url('/images/bg_r.JPG') no-repeat center center fixed;
     background-size: cover;
 }
 
