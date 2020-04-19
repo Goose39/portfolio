@@ -3,18 +3,20 @@
     font-family: 'Nunito', sans-serif;
 }
 
+html {
+    background: url('/images/bg_r.JPG') no-repeat center center fixed;
+    background-size: cover;
+}
+
 body {
     text-align: center;
     max-width: 980px;
     margin: 0 auto;
-    background: url('/images/bg_r.JPG') no-repeat center center fixed;
-    background-size: cover;
 }
 
 i {
     color: rgb(58, 180, 189);
 }
-
 
 h1 {
     font-size: 20px;
@@ -43,14 +45,7 @@ a {
     text-decoration: none;
     color: white;
     font-size: 10px;
-}
-
-a, .submit {
     text-transform: uppercase;
-}
-
-fieldset {
-    border: none;
 }
 
 footer {

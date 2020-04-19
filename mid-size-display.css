@@ -81,17 +81,19 @@
         display: inline-block;
     }
 
-    fieldset {
-        display: flex;
-    }
-
     .submit {
+        text-transform: uppercase;
+        display: block;
         margin: 10px 0 0 auto;
     }
 
     .contact-methods {
         display: flex;
         justify-content: center;
+    }
+
+    textarea {
+        width: 100%;
     }
 
 }
