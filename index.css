@@ -57,11 +57,16 @@ footer {
     background-color:lightgray;
 }
 
+h4 {
+    font-size: 6px;
+}
 
 
 .contact-form {
     display: none;
 }
+
+
 
 .social-list {
     display: flex;
@@ -243,7 +248,6 @@ footer p {
 .job-title {
     margin: 0;
     padding: 2px 0 0 0;
-    font-size: 25px;
     color: rgb(58, 180, 189);
     border-top: rgb(58, 180, 189) 2px solid;
 }
