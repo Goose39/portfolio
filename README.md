@@ -1,4 +1,4 @@
-## SHAUN GOUWS - PROTFOLIO SITE
+## SHAUN GOUWS - PORTFOLIO SITE
 
 A site to display my coding works to the world. 
 
