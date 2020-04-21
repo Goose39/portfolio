@@ -4,7 +4,12 @@
 }
 
 html {
+<<<<<<< HEAD
     background-color: black;
+=======
+    background: url('/portfolio/images/bg.JPG') no-repeat center center fixed;
+    background-size: cover;
+>>>>>>> a3bbaef520b8967c329ec59bc264488a8945014b
 }
 
 body {
