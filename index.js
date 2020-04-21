@@ -1,7 +1,5 @@
 function handleJs() {
     handleThumbnailClicks();
-    mailClick();
-    textClick();
     formSubmit();
     initializeScreenshot();
 }
@@ -13,27 +11,12 @@ function initializeScreenshot() {
     })
 }
 
-function textClick() {
-    $(".contact").on("click", ".msg-text", function() {
-        str = $(".msg-text").val();
-        if (str === "Send me an email, I would be happy to hear from you!") {
-            $(".msg-text").val("");
-        }
-    })
-}
-
 function handleThumbnailClicks() {
     $(".screenshot").on("click", ".thumbnail", function(event) {
         const src = $(this).attr("src");
         $(this).closest(".screenshot").css("background-image", `url(${src})`);
     })
 }; 
- 
-function mailClick() {
-    $(".social").on("click", ".mail-icon", function(event) {
-        window.open(`${genE("Hi Shaun, ")}`);
-    })
-}
 
 function genE(msg) {
     let str = "";
